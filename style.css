@@ -14,7 +14,7 @@
     height: 100vh;
   }
   
-  nav {
+  .menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,7 +27,7 @@
     margin-right: 2rem;
   }
   
-  btn {
+  .btn{
     padding: 0.8rem 1rem;
     cursor: pointer;
     border: none;
@@ -40,5 +40,132 @@
   
   button#signUp {
     background-color: #8E2424;
-    color: #FFF;
+    color: #e00000;
   }
+
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sub-title-container h6 {
+    font-size: 0.9rem; /* ajuste o tamanho conforme desejar */
+    color: #8E2424; /* ajuste a cor conforme o design desejado */
+    margin-bottom: 10px; /* espaço entre o h6 e o h2 */
+  }
+  
+  .title-container h2 {
+    font-size: 2rem; /* ajuste o tamanho conforme desejar */
+    color: #222; /* ajuste a cor conforme o design desejado */
+    margin-bottom: 15px; /* espaço entre o h2 e o span */
+  }
+  
+  .title-container span {
+    padding-bottom: 20px;
+    font-size: 1rem; /* ajuste o tamanho conforme desejar */
+    color: #555; /* ajuste a cor conforme o design desejado */
+    line-height: 1.5; /* melhora a legibilidade */
+    margin-top: 15px;
+  }
+  .number p{
+    font-size: 2rem;
+    color:#8E2424
+    }
+  .titulo-metrica{
+    color: #252525;
+    font-size:0.9rem ;
+    margin-bottom: 12px;
+  }
+  .text-metrica{
+    color:#787a7c;
+    font-size: 0.7rem;
+    gap: 20px;
+  }
+.metricas-container{
+  flex-direction: row;
+  padding: 20px;
+  display: flex;
+  flex-wrap:nowrap ;
+  margin-top: 50px;
+  padding: auto;
+  justify-content: space-between ;
+}
+
+.metrica{
+  background: #fdf6f6;
+  justify-content: space-between;
+  width: 500px;
+  margin: 25px;
+}
+
+.talentos-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sub-title-talentos h6{
+  font-size: 0.8rem; /* ajuste o tamanho conforme desejar */
+  color: #8E2424; /* ajuste a cor conforme o design desejado */
+  margin-bottom: 10px; /* espaço entre o h6 e o h2 */
+}
+
+.title-talentos h2 {
+  font-size: 1.3rem; /* ajuste o tamanho conforme desejar */
+  color: #222; /* ajuste a cor conforme o design desejado */
+  margin-bottom: 15px; /* espaço entre o h2 e o span */
+}
+
+.title-talentos span {
+  padding-bottom: 20px;
+  font-size: 0.8rem; /* ajuste o tamanho conforme desejar */
+  color: #555; /* ajuste a cor conforme o design desejado */
+  line-height: 1.5; /* melhora a legibilidade */
+  margin-top: 15rem;
+}
+.time-images{
+  padding-top: 100px;
+}
+
+.vagas-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.categoria-vaga{
+  color:#e00000;
+  }
+
+.vagas-container{
+  flex-direction: column;
+  width: 500px;
+  margin: 25px;
+  margin-right:1rem ;
+}
+
+.bloco-vagas {
+  background: #c55c5c;
+  justify-content: space-between;
+  width: 500px;
+  margin: 25px;
+  border: 4px solid #1b0d0d;
+  border-radius: 10px;
+}
+
+.titulo-vaga{
+  color: antiquewhite;
+  gap: 10rem;
+  padding: 2rem;
+  margin: 1rem;
+  line-height: 2.5;
+}

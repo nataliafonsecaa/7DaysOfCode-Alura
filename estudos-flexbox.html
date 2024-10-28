@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudo de Flex Box</title>
+    <style>
+      .flexbox-container {
+        background-color: #d5d6fa;
+        padding: 20px;
+        display: flex; /* os elementos ficam um do lado do outro  */
+        /* justify - eixo principal (vertical) // align - eixo transversal (horizontal) */
+        justify-content: center; /* os elementos ficam alinhados no centro no eixo principal  */
+       /*  align-items: stretch; os elementos ocupam o máximo de espaço na vertical que ele consegue */
+       flex-wrap:wrap ; /*importante para a responsividade * //  ao diminuir a página, o wrap quebra o elemento fazendo assim ele se ajustar com o tamanho da pag */
+      }
+      .flexbox-item {
+        width: 200px;
+        margin: 20px;
+        border: 4px solid #7400b8;
+        background: #8ab9f3;
+      }
+      .item-1 {
+        min-height: 100px;
+      }
+      .item-2 {
+        min-height: 200px;
+      }
+      .item-3 {
+        min-height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox-container">
+      <div class="flexbox-item item-1"></div>
+      <div class="flexbox-item item-2"></div>
+      <div class="flexbox-item item-3"></div>
+    </div>
+  </body>
+</html>
