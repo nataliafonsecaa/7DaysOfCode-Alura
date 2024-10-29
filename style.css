@@ -143,7 +143,10 @@
 }
 
 .categoria-vaga{
-  color:#e00000;
+  color:#272727;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-left: 20%;
   }
 
 .vagas-container{
@@ -154,18 +157,102 @@
 }
 
 .bloco-vagas {
-  background: #c55c5c;
-  justify-content: space-between;
-  width: 500px;
-  margin: 25px;
-  border: 4px solid #1b0d0d;
+  background: #ffebeb48;
+  border: 2px solid #07060613;
   border-radius: 10px;
+  width: 90%; /* Ajuste conforme necessário */
+  margin: 25px auto; 
+  margin-left: 40%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
 }
 
-.titulo-vaga{
-  color: antiquewhite;
-  gap: 10rem;
-  padding: 2rem;
-  margin: 1rem;
-  line-height: 2.5;
+.titulo-vaga {
+  color: rgb(61, 61, 60);
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.informacoes {
+  color: #858585;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* padding: 2vh; */
+}
+
+.full{
+  padding: 0.9rem;
+}
+
+.container-colaboradores{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  gap:16px
+}
+
+.colaboradores-text{
+  font-size: 0.7rem; /* ajuste o tamanho conforme desejar */
+  color: #8e2424; /* ajuste a cor conforme o design desejado */
+  margin-bottom: 10px; /* espaço entre o h6 e o h2 */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-container span {
+  padding: 20px;
+  font-size: 1.5rem; /* ajuste o tamanho conforme desejar */
+  color: #181717; /* ajuste a cor conforme o design desejado */
+  line-height: 1.5; /* melhora a legibilidade */
+  margin-top: 15px;
+  gap: 16px;
+}
+
+.name-avatar{
+  font-size: 0.8rem;
+}
+
+.profissao-avatar{
+  font-size:0.7rem ;
+  color: #5e5d5d;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 5px;
+  gap: 20px
+}
+
+.sub-title-footer{
+  font-size: 2rem; /* ajuste o tamanho conforme desejar */
+  color: #141313; /* ajuste a cor conforme o design desejado */
+  margin-bottom: 10px; 
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.texto-footer{
+  color:#7c7c7c;
+}
+
+.inputs{
+  gap: 50px;
+}
+
+p{
+  color: #5e5d5d;
 }
